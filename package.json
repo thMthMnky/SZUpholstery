@@ -1,0 +1,36 @@
+{
+  "name": "panamerican_upholstery",
+  "version": "1.0.0",
+  "description": "An online store front to sell general upholstery services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thMthMnky/SZUpholstery.git"
+  },
+  "keywords": [
+    "upholstery",
+    "storefront",
+    "MERN"
+  ],
+  "author": "Henry O. Zorrilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thMthMnky/SZUpholstery/issues"
+  },
+  "homepage": "https://github.com/thMthMnky/SZUpholstery#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0",
+    "jshint": "^2.10.2",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.7",
+    "react": "^16.8.6"
+  }
+}
