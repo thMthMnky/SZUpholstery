@@ -1,10 +1,10 @@
 {
   "name": "panamerican_upholstery",
   "version": "1.0.0",
-  "description": "An online store front to sell general upholstery services",
-  "main": "index.js",
+  "description": "An online store front to sell general upholstery goods and services",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon app.js",
     "test": "jest --coverage --forceExit"
   },
   "repository": {
@@ -23,14 +23,22 @@
   },
   "homepage": "https://github.com/thMthMnky/SZUpholstery#readme",
   "devDependencies": {
+    "babel-eslint": "^10.0.2",
     "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "express-requests-logger": "^2.0.5",
     "jest": "^24.8.0",
     "jshint": "^2.10.2",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.4"
   },
   "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "express-session": "^1.16.2",
     "mongoose": "^5.6.7",
+    "morgan": "^1.9.1",
     "react": "^16.8.6"
   }
 }
