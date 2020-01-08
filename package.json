@@ -4,7 +4,7 @@
   "description": "An online store front to sell general upholstery goods and services",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "test": "jest --coverage --forceExit"
   },
   "repository": {
